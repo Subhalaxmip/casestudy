@@ -1,0 +1,11 @@
+﻿@Model AuthenticateMVC.Models.ContactModel
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login_For</h2>
+
+@Html.RadioButton(name: "Login_For", value:"Car_Washer") Car_Washer
+<br/>
+@Html.RadioButton(name: "Login_For", value:"Admin") Admin
+
